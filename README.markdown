@@ -2,6 +2,10 @@
 [pykalman](http://pykalman.github.com)
 ======================================
 
+The `adaptive-EKF` branch will implement the adaptive EKF modification to estimate process noise. 
+This implementation is based on the paper: https://arxiv.org/pdf/1702.00884.pdf  See eq 11 and 14 therein.
+
+
 Welcome to [pykalman](http://pykalman.github.com), the dead-simple Kalman
 Filter, Kalman Smoother, and EM library for Python
 
